@@ -20,7 +20,7 @@
 
 The universe is 13.8 billion years old. Somewhere along the way, atoms arranged themselves into things that could ask questions about other atoms. I think that's the wildest fact in existence, and most of what I do is downstream of that wonder.
 
-By day, I build **agentic AI workflows** at **AT&T**: multi-process routing, computer-use agents, LangGraph pipelines that turn screen recordings into executable automations. On the side, I lead AI/ML at **Nabu Tutor**, an AI-powered USMLE prep platform, where I work on agentic RAG, long-term memory systems, LLM fine-tuning, and voice tutoring. Before all this: Google Cloud, Foundation AI, Aion Labs.
+By day, I build **agentic AI workflows** at **AT&T**: multi-process routing, computer-use agents, LangGraph pipelines that turn screen recordings into executable automations. On the side, I lead AI/ML at **Nabu Tutor**, an AI-powered USMLE prep platform, where I work on agentic RAG, long-term memory systems, LLM fine-tuning, and voice tutoring. Before all this: Google AgentSpace, Foundation AI, Aion Labs.
 
 When I'm not wiring LLMs into production, I'm probably reading about black holes, watching City fall apart in a winnable match, or losing a chess game I should've won.
 
@@ -31,11 +31,9 @@ When I'm not wiring LLMs into production, I'm probably reading about black holes
 ```yaml
 location:    San Francisco, CA 🌁
 role:        AI/ML Engineer @ AT&T  ·  Lead AI/ML @ Nabu Tutor
-building:    Memory V2 (Mem0 2.0 + pgvector + Redis)
-shipping:    Agentic pipelines · screen-recording → workflow → execution
-learning:    GRPO · RL for agents · multimodal reasoning
-open_to:     agentic AI collabs · hackathon teams · deep technical convos
-find_me_at:  SF AI hackathons · Arize Observe (Jun 4, Ferry Building)
+focus:       agentic systems · LLM post-training · long-term memory · RAG
+research:    GRPO · RL for agents · multimodal reasoning · computer-use
+open_to:     agentic AI collabs · research convos · hackathon teams
 ```
 
 ---
