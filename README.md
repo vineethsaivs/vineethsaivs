@@ -1,153 +1,143 @@
-<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050817"/>
-      <stop offset="50%" stop-color="#0a0e27"/>
-      <stop offset="100%" stop-color="#1a0b2e"/>
-    </linearGradient>
-    <radialGradient id="nebula1" cx="18%" cy="35%" r="38%">
-      <stop offset="0%" stop-color="#6CABDD" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#6CABDD" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="nebula2" cx="85%" cy="70%" r="35%">
-      <stop offset="0%" stop-color="#9b5de5" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#9b5de5" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="nebula3" cx="65%" cy="15%" r="22%">
-      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<div align="center">
+  <img src="banner.svg" alt="Vineeth Sai — AI/ML Engineer · Agentic Systems · Cosmos Dreamer" />
+</div>
 
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#nebula1)"/>
-  <rect width="1200" height="300" fill="url(#nebula2)"/>
-  <rect width="1200" height="300" fill="url(#nebula3)"/>
+<div align="center">
+  <a href="https://github.com/vineethsaivs">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=6CABDD&center=true&vCenter=true&width=620&lines=Building+agentic+AI+for+a+living;Studying+the+cosmos+for+the+love+of+it;LangGraph+%E2%80%A2+LLMs+%E2%80%A2+Memory+%E2%80%A2+Fine-tuning;Always+shipping%2C+always+learning+%F0%9F%9A%80" />
+  </a>
+</div>
 
-  <!-- Distant tiny stars -->
-  <g fill="white">
-    <circle cx="35" cy="40" r="0.7" opacity="0.5"/>
-    <circle cx="85" cy="22" r="0.6" opacity="0.4"/>
-    <circle cx="142" cy="68" r="0.8" opacity="0.55"/>
-    <circle cx="208" cy="34" r="0.7" opacity="0.5"/>
-    <circle cx="270" cy="88" r="0.6" opacity="0.45"/>
-    <circle cx="330" cy="28" r="0.7" opacity="0.5"/>
-    <circle cx="395" cy="62" r="0.6" opacity="0.45"/>
-    <circle cx="455" cy="38" r="0.8" opacity="0.55"/>
-    <circle cx="520" cy="78" r="0.6" opacity="0.4"/>
-    <circle cx="580" cy="22" r="0.7" opacity="0.5"/>
-    <circle cx="650" cy="55" r="0.7" opacity="0.5"/>
-    <circle cx="715" cy="32" r="0.6" opacity="0.45"/>
-    <circle cx="780" cy="72" r="0.8" opacity="0.55"/>
-    <circle cx="848" cy="40" r="0.7" opacity="0.5"/>
-    <circle cx="908" cy="85" r="0.6" opacity="0.45"/>
-    <circle cx="970" cy="25" r="0.7" opacity="0.5"/>
-    <circle cx="1035" cy="58" r="0.6" opacity="0.45"/>
-    <circle cx="1100" cy="35" r="0.8" opacity="0.55"/>
-    <circle cx="1162" cy="78" r="0.7" opacity="0.5"/>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=vineethsaivs&label=Profile+views&color=6CABDD&style=flat" />
+  <img src="https://img.shields.io/github/followers/vineethsaivs?label=Followers&style=flat&color=6CABDD&labelColor=0a0e27" />
+  <img src="https://img.shields.io/badge/Based_in-San_Francisco-6CABDD?style=flat&labelColor=0a0e27" />
+</p>
 
-    <circle cx="55" cy="225" r="0.7" opacity="0.5"/>
-    <circle cx="110" cy="258" r="0.6" opacity="0.4"/>
-    <circle cx="175" cy="232" r="0.8" opacity="0.55"/>
-    <circle cx="240" cy="268" r="0.6" opacity="0.45"/>
-    <circle cx="305" cy="225" r="0.7" opacity="0.5"/>
-    <circle cx="368" cy="260" r="0.7" opacity="0.5"/>
-    <circle cx="430" cy="235" r="0.6" opacity="0.45"/>
-    <circle cx="498" cy="275" r="0.8" opacity="0.55"/>
-    <circle cx="562" cy="248" r="0.6" opacity="0.4"/>
-    <circle cx="625" cy="222" r="0.7" opacity="0.5"/>
-    <circle cx="690" cy="265" r="0.7" opacity="0.5"/>
-    <circle cx="755" cy="238" r="0.6" opacity="0.45"/>
-    <circle cx="820" cy="272" r="0.8" opacity="0.55"/>
-    <circle cx="885" cy="245" r="0.7" opacity="0.5"/>
-    <circle cx="945" cy="222" r="0.6" opacity="0.45"/>
-    <circle cx="1010" cy="262" r="0.7" opacity="0.5"/>
-    <circle cx="1078" cy="238" r="0.7" opacity="0.5"/>
-    <circle cx="1142" cy="270" r="0.6" opacity="0.45"/>
-  </g>
+---
 
-  <!-- Medium stars -->
-  <g fill="white">
-    <circle cx="180" cy="55" r="1.2" opacity="0.85"/>
-    <circle cx="425" cy="80" r="1.3" opacity="0.9"/>
-    <circle cx="155" cy="245" r="1.2" opacity="0.85"/>
-    <circle cx="385" cy="252" r="1.3" opacity="0.9"/>
-    <circle cx="615" cy="42" r="1.1" opacity="0.8"/>
-    <circle cx="867" cy="68" r="1.4" opacity="0.95"/>
-    <circle cx="1055" cy="48" r="1.2" opacity="0.85"/>
-    <circle cx="588" cy="262" r="1.2" opacity="0.85"/>
-    <circle cx="838" cy="225" r="1.3" opacity="0.9"/>
-    <circle cx="1095" cy="258" r="1.4" opacity="0.95"/>
-  </g>
+## 🌌 `whoami`
 
-  <!-- Bright twinkling hero stars -->
-  <g fill="white">
-    <circle cx="248" cy="60" r="1.8" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="730" cy="50" r="2" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1015" cy="78" r="1.8" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="280" cy="240" r="2" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="705" cy="258" r="1.8" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="965" cy="248" r="2.2" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+The universe is 13.8 billion years old. Somewhere along the way, atoms arranged themselves into things that could ask questions about other atoms. I think that's the wildest fact in existence, and most of what I do is downstream of that wonder.
 
-  <!-- Subtle orbital ring around the title -->
-  <ellipse cx="600" cy="150" rx="380" ry="65" fill="none" stroke="#6CABDD" stroke-width="0.6" opacity="0.18"/>
-  <ellipse cx="600" cy="150" rx="320" ry="50" fill="none" stroke="#9b5de5" stroke-width="0.4" opacity="0.12"/>
+By day, I build **agentic AI workflows** at **AT&T** — multi-process routing, computer-use agents, LangGraph pipelines that turn screen recordings into executable automations. On the side, I lead AI/ML at **Nabu Tutor**, an AI-powered USMLE prep platform, where I work on agentic RAG, long-term memory systems, LLM fine-tuning, and voice tutoring. Before all this: Google AgentSpace, Foundation AI, Aion Labs.
 
-  <!-- Main title -->
-  <text x="600" y="138" text-anchor="middle" fill="#ffffff" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="58" font-weight="700" letter-spacing="8">VINEETH SAI</text>
+When I'm not wiring LLMs into production, I'm probably reading about black holes, watching City fall apart in a winnable match, or losing a chess game I should've won.
 
-  <!-- Tagline -->
-  <text x="600" y="178" text-anchor="middle" fill="#6CABDD" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="5" font-weight="400">AI / ML  ·  AGENTIC SYSTEMS  ·  COSMOS DREAMER</text>
+---
 
-  <!-- Accent line -->
-  <line x1="490" y1="200" x2="710" y2="200" stroke="#6CABDD" stroke-width="0.8" opacity="0.45"/>
-  <circle cx="600" cy="200" r="2.5" fill="#6CABDD" opacity="0.8"/>
+## 🛰️ Current orbit
 
-  <!-- Small constellation in lower right -->
-  <g stroke="#6CABDD" stroke-width="0.5" opacity="0.35" fill="none">
-    <line x1="1020" y1="218" x2="1058" y2="240"/>
-    <line x1="1058" y1="240" x2="1095" y2="222"/>
-    <line x1="1095" y1="222" x2="1115" y2="253"/>
-    <line x1="1058" y1="240" x2="1075" y2="268"/>
-  </g>
-  <g fill="white">
-    <circle cx="1020" cy="218" r="1.6"/>
-    <circle cx="1058" cy="240" r="2.2"/>
-    <circle cx="1095" cy="222" r="1.6"/>
-    <circle cx="1115" cy="253" r="2"/>
-    <circle cx="1075" cy="268" r="1.6"/>
-  </g>
+```yaml
+location:    San Francisco, CA 🌁
+role:        AI/ML Engineer @ AT&T  ·  Lead AI/ML @ Nabu Tutor
+building:    Memory V2 (Mem0 2.0 + pgvector + Redis)
+shipping:    Agentic pipelines · screen-recording → workflow → execution
+learning:    GRPO · RL for agents · multimodal reasoning
+open_to:     agentic AI collabs · hackathon teams · deep technical convos
+find_me_at:  SF AI hackathons · Arize Observe (Jun 4, Ferry Building)
+```
 
-  <!-- Small constellation in upper left -->
-  <g stroke="#9b5de5" stroke-width="0.5" opacity="0.3" fill="none">
-    <line x1="95" y1="55" x2="135" y2="38"/>
-    <line x1="135" y1="38" x2="172" y2="65"/>
-    <line x1="135" y1="38" x2="148" y2="18"/>
-  </g>
-  <g fill="white">
-    <circle cx="95" cy="55" r="1.5"/>
-    <circle cx="135" cy="38" r="2"/>
-    <circle cx="172" cy="65" r="1.5"/>
-    <circle cx="148" cy="18" r="1.6"/>
-  </g>
-</svg>
+---
+
+## 🧠 The arsenal
+
+<div align="center">
+
+### LLMs · Agents · RAG
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=for-the-badge)
+![LangSmith](https://img.shields.io/badge/LangSmith-353535?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-6CABDD?style=for-the-badge)
+![Mem0](https://img.shields.io/badge/Mem0-FF4B4B?style=for-the-badge)
+
+### Deep Learning · Fine-tuning
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
+![Unsloth](https://img.shields.io/badge/Unsloth-7C3AED?style=for-the-badge)
+![QLoRA](https://img.shields.io/badge/QLoRA-9b5de5?style=for-the-badge)
+![PEFT](https://img.shields.io/badge/PEFT-FF6F61?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+### Vector · Memory · Data
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+### Cloud · MLOps
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub_Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### Frameworks · Voice · Automation
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+</div>
+
+---
+
+## 📡 Signals from the observatory
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=vineethsaivs&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0a0e27&title_color=6CABDD&text_color=c9d1d9&icon_color=9b5de5" />
+  <img height="180" src="https://streak-stats.demolab.com?user=vineethsaivs&hide_border=true&background=0a0e27&stroke=6CABDD&ring=6CABDD&fire=9b5de5&currStreakLabel=6CABDD&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=c9d1d9" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineethsaivs&layout=compact&hide_border=true&bg_color=0a0e27&title_color=6CABDD&text_color=c9d1d9&langs_count=8" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vineethsaivs&bg_color=0a0e27&color=6CABDD&line=9b5de5&point=ffffff&area=true&hide_border=true" />
+</div>
+
+---
+
+## 🪐 Beyond the keyboard
+
+> Stuff that makes me a person, not a model.
+
+- 🌌 **Cosmos** — astrophysics, black holes, exoplanets, the early universe. If AI didn't exist, I'd be doing this.
+- 💙 **Manchester City** — through the trebles, the heartbreaks, the existential VAR decisions. Cityzen for life.
+- 🎾🏎️ **Tennis & F1** — weekend rituals. Slams and Sundays.
+- ♟️ **Chess** — `vineethsaivs` on chess.com. Down for a game anytime.
+- 🍥 **Naruto** — *"Hard work is worthless for those that don't believe in themselves."* Believer.
+- 🥷 **SF hackathon scene** — Zero to Agent, OpenEnv, Shack15 regular. Built a VLM/GRPO Duck Hunt agent that hit 60.9% on Horizon-Min. Always down to team up.
+
+---
+
+## 🌠 Connect
+
+<p align="center">
+  <a href="https://linkedin.com/in/vineethsaivs"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/vineeth_sai_vs"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="mailto:vineethsai4444@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://vineethsaivs.github.io/PortfolioWebsite/"><img src="https://img.shields.io/badge/Portfolio-6CABDD?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+  <a href="https://chess.com/member/vineethsaivs"><img src="https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white" /></a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Somewhere, something incredible is waiting to be known."</i><br>
+  <sub>— Carl Sagan</sub>
+</p>
+
+<p align="center">
+  <sub>⭐ Made with cosmic curiosity and probably too much coffee.</sub>
+</p>
