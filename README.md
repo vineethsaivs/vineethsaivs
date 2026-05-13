@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.svg" alt="Vineeth Sai — AI/ML Engineer · Agentic Systems · Cosmos Dreamer" />
+  <img src="banner.svg" alt="Vineeth Sai · AI/ML Engineer · Agentic Systems · Cosmos Dreamer" />
 </div>
 
 <div align="center">
@@ -20,7 +20,7 @@
 
 The universe is 13.8 billion years old. Somewhere along the way, atoms arranged themselves into things that could ask questions about other atoms. I think that's the wildest fact in existence, and most of what I do is downstream of that wonder.
 
-By day, I build **agentic AI workflows** at **AT&T** — multi-process routing, computer-use agents, LangGraph pipelines that turn screen recordings into executable automations. On the side, I lead AI/ML at **Nabu Tutor**, an AI-powered USMLE prep platform, where I work on agentic RAG, long-term memory systems, LLM fine-tuning, and voice tutoring. Before all this: Google AgentSpace, Foundation AI, Aion Labs.
+By day, I build **agentic AI workflows** at **AT&T**: multi-process routing, computer-use agents, LangGraph pipelines that turn screen recordings into executable automations. On the side, I lead AI/ML at **Nabu Tutor**, an AI-powered USMLE prep platform, where I work on agentic RAG, long-term memory systems, LLM fine-tuning, and voice tutoring. Before all this: Google AgentSpace, Foundation AI, Aion Labs.
 
 When I'm not wiring LLMs into production, I'm probably reading about black holes, watching City fall apart in a winnable match, or losing a chess game I should've won.
 
@@ -112,12 +112,12 @@ find_me_at:  SF AI hackathons · Arize Observe (Jun 4, Ferry Building)
 
 > Stuff that makes me a person, not a model.
 
-- 🌌 **Cosmos** — astrophysics, black holes, exoplanets, the early universe. If AI didn't exist, I'd be doing this.
-- 💙 **Manchester City** — through the trebles, the heartbreaks, the existential VAR decisions. Cityzen for life.
-- 🎾🏎️ **Tennis & F1** — weekend rituals. Slams and Sundays.
-- ♟️ **Chess** — `vineethsaivs` on chess.com. Down for a game anytime.
-- 🍥 **Naruto** — *"Hard work is worthless for those that don't believe in themselves."* Believer.
-- 🥷 **SF hackathon scene** — Zero to Agent, OpenEnv, Shack15 regular. Built a VLM/GRPO Duck Hunt agent that hit 60.9% on Horizon-Min. Always down to team up.
+- 🌌 **Cosmos:** astrophysics, black holes, exoplanets, the early universe. If AI didn't exist, I'd be doing this.
+- 💙 **Manchester City:** through the trebles, the heartbreaks, the existential VAR decisions. Cityzen for life.
+- 🎾🏎️ **Tennis & F1:** weekend rituals. Slams and Sundays.
+- ♟️ **Chess:** `vineethsaivs` on chess.com. Down for a game anytime.
+- 🍥 **Naruto:** *"Hard work is worthless for those that don't believe in themselves."* Believer.
+- 🥷 **SF hackathon scene:** Zero to Agent, OpenEnv, Shack15 regular. Built a VLM/GRPO Duck Hunt agent that hit 60.9% on Horizon-Min. Always down to team up.
 
 ---
 
@@ -135,7 +135,7 @@ find_me_at:  SF AI hackathons · Arize Observe (Jun 4, Ferry Building)
 
 <p align="center">
   <i>"Somewhere, something incredible is waiting to be known."</i><br>
-  <sub>— Carl Sagan</sub>
+  <sub>- Carl Sagan</sub>
 </p>
 
 <p align="center">
