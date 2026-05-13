@@ -1,96 +1,153 @@
-<h1 align="center">Hey, I'm Vineeth 👋</h1>
-<h3 align="center">AI/ML Engineer · Agentic AI · Space nerd 🚀</h3>
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050817"/>
+      <stop offset="50%" stop-color="#0a0e27"/>
+      <stop offset="100%" stop-color="#1a0b2e"/>
+    </linearGradient>
+    <radialGradient id="nebula1" cx="18%" cy="35%" r="38%">
+      <stop offset="0%" stop-color="#6CABDD" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#6CABDD" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="85%" cy="70%" r="35%">
+      <stop offset="0%" stop-color="#9b5de5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#9b5de5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula3" cx="65%" cy="15%" r="22%">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vineethsaivs&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <a href="https://linkedin.com/in/vineethsaivs"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/vineeth_sai_vs"><img src="https://img.shields.io/badge/-@vineeth__sai__vs-000000?style=flat&logo=x&logoColor=white" /></a>
-</p>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#nebula1)"/>
+  <rect width="1200" height="300" fill="url(#nebula2)"/>
+  <rect width="1200" height="300" fill="url(#nebula3)"/>
 
----
+  <!-- Distant tiny stars -->
+  <g fill="white">
+    <circle cx="35" cy="40" r="0.7" opacity="0.5"/>
+    <circle cx="85" cy="22" r="0.6" opacity="0.4"/>
+    <circle cx="142" cy="68" r="0.8" opacity="0.55"/>
+    <circle cx="208" cy="34" r="0.7" opacity="0.5"/>
+    <circle cx="270" cy="88" r="0.6" opacity="0.45"/>
+    <circle cx="330" cy="28" r="0.7" opacity="0.5"/>
+    <circle cx="395" cy="62" r="0.6" opacity="0.45"/>
+    <circle cx="455" cy="38" r="0.8" opacity="0.55"/>
+    <circle cx="520" cy="78" r="0.6" opacity="0.4"/>
+    <circle cx="580" cy="22" r="0.7" opacity="0.5"/>
+    <circle cx="650" cy="55" r="0.7" opacity="0.5"/>
+    <circle cx="715" cy="32" r="0.6" opacity="0.45"/>
+    <circle cx="780" cy="72" r="0.8" opacity="0.55"/>
+    <circle cx="848" cy="40" r="0.7" opacity="0.5"/>
+    <circle cx="908" cy="85" r="0.6" opacity="0.45"/>
+    <circle cx="970" cy="25" r="0.7" opacity="0.5"/>
+    <circle cx="1035" cy="58" r="0.6" opacity="0.45"/>
+    <circle cx="1100" cy="35" r="0.8" opacity="0.55"/>
+    <circle cx="1162" cy="78" r="0.7" opacity="0.5"/>
 
-### 🧠 About me
+    <circle cx="55" cy="225" r="0.7" opacity="0.5"/>
+    <circle cx="110" cy="258" r="0.6" opacity="0.4"/>
+    <circle cx="175" cy="232" r="0.8" opacity="0.55"/>
+    <circle cx="240" cy="268" r="0.6" opacity="0.45"/>
+    <circle cx="305" cy="225" r="0.7" opacity="0.5"/>
+    <circle cx="368" cy="260" r="0.7" opacity="0.5"/>
+    <circle cx="430" cy="235" r="0.6" opacity="0.45"/>
+    <circle cx="498" cy="275" r="0.8" opacity="0.55"/>
+    <circle cx="562" cy="248" r="0.6" opacity="0.4"/>
+    <circle cx="625" cy="222" r="0.7" opacity="0.5"/>
+    <circle cx="690" cy="265" r="0.7" opacity="0.5"/>
+    <circle cx="755" cy="238" r="0.6" opacity="0.45"/>
+    <circle cx="820" cy="272" r="0.8" opacity="0.55"/>
+    <circle cx="885" cy="245" r="0.7" opacity="0.5"/>
+    <circle cx="945" cy="222" r="0.6" opacity="0.45"/>
+    <circle cx="1010" cy="262" r="0.7" opacity="0.5"/>
+    <circle cx="1078" cy="238" r="0.7" opacity="0.5"/>
+    <circle cx="1142" cy="270" r="0.6" opacity="0.45"/>
+  </g>
 
-- 🤖 Building **agentic AI workflows** at **AT&T** — multi-process routing, LangGraph, computer-use agents
-- 🩺 Leading AI/ML at **Nabu Tutor** — an AI-powered USMLE prep platform (agentic RAG, memory systems, voice tutoring)
-- 🎓 MS in Data Science, **University of the Pacific** (SF)
-- 🌌 Obsessed with **space, astrophysics, and cosmology** — always have been
-- 📍 Based in **San Francisco**, deep in the hackathon scene
-- 💬 Ask me about: agentic RAG, LangGraph/LangSmith, QLoRA fine-tuning, memory systems, computer-use agents
+  <!-- Medium stars -->
+  <g fill="white">
+    <circle cx="180" cy="55" r="1.2" opacity="0.85"/>
+    <circle cx="425" cy="80" r="1.3" opacity="0.9"/>
+    <circle cx="155" cy="245" r="1.2" opacity="0.85"/>
+    <circle cx="385" cy="252" r="1.3" opacity="0.9"/>
+    <circle cx="615" cy="42" r="1.1" opacity="0.8"/>
+    <circle cx="867" cy="68" r="1.4" opacity="0.95"/>
+    <circle cx="1055" cy="48" r="1.2" opacity="0.85"/>
+    <circle cx="588" cy="262" r="1.2" opacity="0.85"/>
+    <circle cx="838" cy="225" r="1.3" opacity="0.9"/>
+    <circle cx="1095" cy="258" r="1.4" opacity="0.95"/>
+  </g>
 
----
+  <!-- Bright twinkling hero stars -->
+  <g fill="white">
+    <circle cx="248" cy="60" r="1.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="730" cy="50" r="2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1015" cy="78" r="1.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="240" r="2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="705" cy="258" r="1.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="965" cy="248" r="2.2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-### 🛠️ Tech Stack
+  <!-- Subtle orbital ring around the title -->
+  <ellipse cx="600" cy="150" rx="380" ry="65" fill="none" stroke="#6CABDD" stroke-width="0.6" opacity="0.18"/>
+  <ellipse cx="600" cy="150" rx="320" ry="50" fill="none" stroke="#9b5de5" stroke-width="0.4" opacity="0.12"/>
 
-**Languages**
+  <!-- Main title -->
+  <text x="600" y="138" text-anchor="middle" fill="#ffffff" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="58" font-weight="700" letter-spacing="8">VINEETH SAI</text>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+  <!-- Tagline -->
+  <text x="600" y="178" text-anchor="middle" fill="#6CABDD" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="5" font-weight="400">AI / ML  ·  AGENTIC SYSTEMS  ·  COSMOS DREAMER</text>
 
-**AI / Agents / LLMs**
+  <!-- Accent line -->
+  <line x1="490" y1="200" x2="710" y2="200" stroke="#6CABDD" stroke-width="0.8" opacity="0.45"/>
+  <circle cx="600" cy="200" r="2.5" fill="#6CABDD" opacity="0.8"/>
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=for-the-badge)
-![LangSmith](https://img.shields.io/badge/LangSmith-353535?style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
-![Unsloth](https://img.shields.io/badge/Unsloth-7C3AED?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+  <!-- Small constellation in lower right -->
+  <g stroke="#6CABDD" stroke-width="0.5" opacity="0.35" fill="none">
+    <line x1="1020" y1="218" x2="1058" y2="240"/>
+    <line x1="1058" y1="240" x2="1095" y2="222"/>
+    <line x1="1095" y1="222" x2="1115" y2="253"/>
+    <line x1="1058" y1="240" x2="1075" y2="268"/>
+  </g>
+  <g fill="white">
+    <circle cx="1020" cy="218" r="1.6"/>
+    <circle cx="1058" cy="240" r="2.2"/>
+    <circle cx="1095" cy="222" r="1.6"/>
+    <circle cx="1115" cy="253" r="2"/>
+    <circle cx="1075" cy="268" r="1.6"/>
+  </g>
 
-**Memory & Vector**
-
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Mem0](https://img.shields.io/badge/Mem0-FF4B4B?style=for-the-badge)
-
-**Cloud & MLOps**
-
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Frameworks & Tools**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge)
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vineethsaivs&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineethsaivs&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
-  <img src="https://streak-stats.demolab.com?user=vineethsaivs&theme=tokyonight&hide_border=true" alt="streak" />
-</p>
-
----
-
-### 🌐 Connect
-
-<p>
-  <a href="https://linkedin.com/in/vineethsaivs"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/vineeth_sai_vs"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="mailto:vineethsai4444@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://vineethsaivs.github.io/PortfolioWebsite/"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" /></a>
-  <a href="https://chess.com/member/vineethsaivs"><img src="https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white" /></a>
-</p>
-
----
-
-### ⚡ Beyond the code
-
-- 🌌 If I weren't building AI, I'd be studying black holes
-- 💙 **Manchester City** through and through
-- ♟️ Down for a chess game anytime — `vineethsaivs` on chess.com
-- 🎾🏎️ Tennis and F1 are the weekend ritual
-- 🍥 *Believe it* — lifelong Naruto fan
-
-<p align="center"><i>"We are made of star-stuff." — Carl Sagan</i></p>
+  <!-- Small constellation in upper left -->
+  <g stroke="#9b5de5" stroke-width="0.5" opacity="0.3" fill="none">
+    <line x1="95" y1="55" x2="135" y2="38"/>
+    <line x1="135" y1="38" x2="172" y2="65"/>
+    <line x1="135" y1="38" x2="148" y2="18"/>
+  </g>
+  <g fill="white">
+    <circle cx="95" cy="55" r="1.5"/>
+    <circle cx="135" cy="38" r="2"/>
+    <circle cx="172" cy="65" r="1.5"/>
+    <circle cx="148" cy="18" r="1.6"/>
+  </g>
+</svg>
